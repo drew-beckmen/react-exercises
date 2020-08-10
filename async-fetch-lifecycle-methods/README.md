@@ -1,6 +1,10 @@
 # Reacting to APIs
 
-## Getting Started
+## Finished React Project
+
+![Demo](public/api_demo.gif)
+
+## Instructions 
 1. Create a new project with Create React App.
 2. Delete the src directory and all of its contents.
 3. Create a new src directory and a new `index.js` file inside of src.
@@ -64,8 +68,6 @@ When the project first compiles, the only thing you should see is the Studio Ghi
 Your third task is to combine both objectives from Phase One and Two in order to conditionally load data from another endpoint in the Studio Ghibli API. Furthermore, you may only make one HTTP request at a time.
 
 For example, you may choose to load Films or People with a button for the respective endpoint, which means the project should only display two buttons (one for "Load Films", one for "Load People") when it first loads. The data loaded, and therefore rendered, depends on which button is pressed. 
-
-At a minimum, if you choose the "People" endpoint, you should display the person's name, age, gender, and a link to that particular person's JSON response that will open in a new tab, but you may use as many properties as you want. If you choose something else as your second endpoint, just be sure to display at least two properties in addition to opening up the link to the item's ID in a new tab.
 
 ----
 
